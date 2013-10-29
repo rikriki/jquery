@@ -13,7 +13,7 @@ module.exports = function( grunt ) {
 		srcHintOptions = readOptionalJSON( "src/.jshintrc" );
 
 	// The concatenated file won't pass onevar
-	// But our modules can
+	// But our modules can riki
 	delete srcHintOptions.onevar;
 
 	grunt.initConfig({
